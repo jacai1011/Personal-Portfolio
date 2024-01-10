@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #be3144;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 60px;
+}
+
+.navlist {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navlist {
+    margin-right: 2rem;
+}
+
+.navlist li a {
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    left: 50px;
+    padding: 1.5rem;
+}
+
+a.button {
+    transition-duration: 0.4s;
+    align-items: center;
+}
+
+a.button:hover {
+    background-color: rgb(36, 36, 94);
+}
+
+.about_sect {
+    display: flex;
+    align-items: center;
+    background: #303841;
+    color: white;
+    height: 350px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.name {
+    padding-top: 4rem;
+    font-size: 58px;
+}
+
+.job {
+    font-size: 20px;
+    color: #be3144;
+    font-style: italic;
+}
+
+.work_sect {
+    background: #45567d;
+    width: 100%;
+    overflow:hidden;
+
+}
+
+.project_display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.project_line {
+    text-align: center;
+    font-size: 40px;
+    color: whitesmoke;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+.white_box {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: white;
+    height: 25rem;
+    width: 20rem;
+}
+
+.code {
+    color: black;
+}
+
+.white_box:hover .code {
+    color: white;
+}
+
+.project-title {
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    color: white;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin: 0;
+    font-size: 20px;
+}
+  
+.contact_sect {
+    background-color: #303841;
+}
+
+.contact_line {
+    text-align: center;
+    font-size: 40px;
+    color: whitesmoke;
+    padding: 3rem;
+}
+
+.contact_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    gap: 10rem;
+    padding-bottom: 5rem;
+}
+
+.work_links {
+    text-decoration: none;
+    color: white;
+}
