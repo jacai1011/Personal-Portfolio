@@ -75,6 +75,10 @@ a.button:hover {
 
 }
 
+.work_space {
+    height: 100px;
+}
+
 .project_display{
     display: flex;
     justify-content: center;
@@ -98,6 +102,7 @@ a.button:hover {
     background-color: white;
     height: 25rem;
     width: 20rem;
+    text-decoration: none;
 }
 
 .code {
