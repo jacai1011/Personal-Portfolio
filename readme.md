@@ -1,4 +1,4 @@
-## PP0 Personal Portfolio 
+## Personal Portfolio 
 Wrote a webpage containing a personal portfolio following the same design as freecodecamp but without the template code.
 ### Target Goals
 Learn HTML, CSS and Figma UI design
